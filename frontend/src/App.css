@@ -1,0 +1,68 @@
+/* Created */
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted black;
+	/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	border: 2px solid #000;
+	border-radius: 6px;
+	padding: 5px 0;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	width: 160px;
+	bottom: 90%;
+	left: -20%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.actual-table {
+	overflow: scroll;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+#TopNavigation {
+	top: 0;
+	left: 0;
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	z-index: 100;
+}
+
+/* Existing  */
+
+.App {
+	text-align: center;
+}
+
+#close {
+	float: right;
+	margin-top: 0px;
+}
+
+#open {
+	float: left;
+	margin-top: 0px;
+}
+
+.full-height {
+	height: 95%;
+}
